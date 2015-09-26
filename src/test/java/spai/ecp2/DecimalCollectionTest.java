@@ -35,5 +35,13 @@ public class DecimalCollectionTest {
         dc.add(-8);
         assertTrue(dc.higher()==-4.0);
     }
+    
+    @Test
+    public void testMenor() {
+    	dc = new DecimalCollection();
+    	dc.add(0.11);
+    	dc.add(4.98);
+    	assertEquals(0.11, dc.menor(), 0.01);
+    }
 
 }
