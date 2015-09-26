@@ -32,6 +32,13 @@ public class PointTest {
         assertEquals( pt.getX(),0);
         assertEquals(pt.getY(),0);
     }
+    
+    @Test
+    public void TestLimitar(){
+    	pt = new Point(-2, 200);
+    	assertEquals(0, pt.getX());
+    	assertEquals(100, pt.getY());
+    }
 
     @Test
     public void testModulo() {
