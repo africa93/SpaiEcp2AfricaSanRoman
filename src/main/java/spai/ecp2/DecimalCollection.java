@@ -3,7 +3,7 @@ package spai.ecp2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DecimalCollection {
+public class DecimalCollection { 
 
     private List<Double> collection;
 
