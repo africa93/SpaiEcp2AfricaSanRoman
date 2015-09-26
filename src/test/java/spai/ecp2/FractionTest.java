@@ -24,5 +24,12 @@ public class FractionTest {
     public void testDecimal() {
         assertTrue(fraction.decimal()== 2.0);
     }
+    
+    @Test
+    public void testSuma() {
+    	Fraction frt = this.fraction.sumarFracciones(new Fraction(1,4));
+    	assertEquals(27, frt.getNumerator());
+    	assertEquals(12, frt.getDenominator());
+    }
 
 }
