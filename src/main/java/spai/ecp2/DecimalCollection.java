@@ -46,5 +46,9 @@ public class DecimalCollection {
     	}
     	return menor;
     }
+    
+    public double media(){
+    	return (double)sum()/size();
+    }
 
 }
