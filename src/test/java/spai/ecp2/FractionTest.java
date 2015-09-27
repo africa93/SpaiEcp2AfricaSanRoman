@@ -45,4 +45,10 @@ public class FractionTest {
     }
 
 
+    @Test
+    public void testdividir(){
+    	Fraction frac = fraction.dividir(new Fraction(2,1));
+    	assertEquals(6,frac.getNumerator());
+    	assertEquals(6,frac.getDenominator());
+    }
 }
