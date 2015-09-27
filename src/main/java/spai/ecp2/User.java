@@ -38,5 +38,9 @@ public class User {
     public String getFamilyName() {
         return this.familyName;
     }
-
+ 
+    public String getFullName(){
+       	return this.name.substring(0, 1).toUpperCase()+this.name.substring(1).toLowerCase()+" "+
+  			this.familyName.substring(0, 1).toUpperCase()+this.familyName.substring(1).toLowerCase();
+    }
 }

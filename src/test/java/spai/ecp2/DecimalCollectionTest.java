@@ -44,4 +44,12 @@ public class DecimalCollectionTest {
     	assertEquals(0.11, dc.menor(), 0.01);
     }
 
+    @Test
+    public void testMedia(){
+     	dc.add(4);
+        dc.add(8);
+        assertTrue(dc.media()==6.0);
+      }
+   
+    
 }

@@ -32,4 +32,8 @@ public class UserTest {
        assertEquals(us.initials(),"A.");
     }
 
+    @Test
+    public void testgetFullName(){
+        assertEquals("Africa San roman",us.getFullName());
+    }
 }
