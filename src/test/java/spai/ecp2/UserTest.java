@@ -33,7 +33,7 @@ public class UserTest {
     }
 
     @Test
-    public void testgetFullName(){
-        assertEquals("Africa San roman",us.getFullName());
+    public void testgetFormaName(){
+        assertEquals("Africa",us.getFormaName());
     }
 }
