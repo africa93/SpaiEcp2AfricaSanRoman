@@ -7,7 +7,7 @@ public class Point {
     public Point(int x, int y, int z) {
         this.x = limitar(x);
         this.y = limitar(y);
-        this.z = z;
+        this.z = limitar(z);
     }
 
 	public Point(int xyz) {

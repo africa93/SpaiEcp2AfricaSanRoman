@@ -25,6 +25,7 @@ public class PointTest {
         assertEquals(pt.getZ(),4);
         assertEquals(pt1.getX(),1);
         assertEquals(pt1.getY(),1);
+        assertEquals(pt1.getZ(),1);
         
     }
 
