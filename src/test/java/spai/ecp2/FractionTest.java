@@ -34,17 +34,16 @@ public class FractionTest {
     	assertEquals(12, frt.getDenominator());
     }
     
-@Test
-    
+    @Test    
     public void testMultiplicacion(){
-    	
-    	fraction = new Fraction(1,2);
-    	
-    	Fraction fract = fraction.multiplicar(new Fraction(2,3));
-    	
-    	assertEquals(2,fract.getNumerator());
-    	assertEquals(6,fract.getDenominator());
-    }
+        	
+        	fraction = new Fraction(1,2);
+        	
+        	Fraction fract = fraction.multiplicar(new Fraction(2,3));
+        	
+        	assertEquals(2,fract.getNumerator());
+        	assertEquals(6,fract.getDenominator());
+        }
 
 
     @Test
