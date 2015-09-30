@@ -65,10 +65,16 @@ public class Fraction {
     	return new Fraction(((this.getNumerator()*fr.getDenominator())+(fr.getNumerator()*this.getDenominator())), (this.getDenominator()*fr.getDenominator()));
     }
     
+    public Fraction multiplicar(Fraction fract){
+    	
+    	return new Fraction((this.getNumerator()*fract.getNumerator()),(this.getDenominator()*fract.getDenominator()));
+    	
+    }
     
     public Fraction dividir (Fraction frac){
 	    return new Fraction(  (this.getNumerator()*frac.getDenominator()),  
   			                  (this.getDenominator()*frac.getNumerator())
   			               );
   }
+
 }

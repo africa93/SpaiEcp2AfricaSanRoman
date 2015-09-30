@@ -31,6 +31,16 @@ public class UserTest {
     public void testInitials() {
        assertEquals(us.initials(),"A.");
     }
+    
+    
+    
+    @Test
+    public void testNombreMayusculas(){
+    
+    	assertEquals("AFRICA SAN ROMAN", us.nombreMayusculas());
+    	
+    	
+    }
 
     @Test
     public void testgetFormaName(){

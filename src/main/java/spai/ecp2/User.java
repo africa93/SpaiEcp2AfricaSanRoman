@@ -27,6 +27,13 @@ public class User {
         return this.name.substring(0, 1) + ".";
     }
 
+    
+    public String nombreMayusculas(){
+    	
+    	return new String(this.name+" "+this.familyName).toUpperCase();
+    	
+    }
+    
     public int getNumber() {
         return this.number;
     }
